@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.calculator {
+  width: 320px;
+  margin: 50px auto;
+  background-color: #22252D;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.calculator-display {
+  background-color: #22252D;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 48px;
+  text-align: right;
+  padding: 30px 20px;
+  border-bottom: 2px solid #393E46;
+}
+
+.calculator-keypad {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.calculator-key {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: none;
+  border-radius: 35px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.calculator-key:hover {
+  transform: scale(1.05);
+}
+
+.calculator-key:active {
+  transform: scale(0.95);
+}
+
+.digit-keys .calculator-key {
+  background-color: #2E3239;
+  color: #fff;
+}
+
+.digit-keys .calculator-key:hover {
+  background-color: #393E46;
+}
+
+.function-keys .calculator-key {
+  background-color: #51555D;
+  color: #fff;
+}
+
+.function-keys .calculator-key:hover {
+  background-color: #5A5F68;
+}
+
+.operator-keys .calculator-key {
+  background-color: #FF9500;
+  color: #fff;
+}
+
+.operator-keys .calculator-key:hover {
+  background-color: #FFB04D;
+}
+
+.key-0 {
+  width: 150px;
+}
+
+.key-equals {
+  height: 150px;
+}
