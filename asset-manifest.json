@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/project-rent-house/static/css/main.f855e6bc.css",
-    "main.js": "/project-rent-house/static/js/main.dc11fa85.js",
+    "main.js": "/project-rent-house/static/js/main.f7676933.js",
     "static/js/488.fda10bf4.chunk.js": "/project-rent-house/static/js/488.fda10bf4.chunk.js",
     "index.html": "/project-rent-house/index.html",
     "main.f855e6bc.css.map": "/project-rent-house/static/css/main.f855e6bc.css.map",
-    "main.dc11fa85.js.map": "/project-rent-house/static/js/main.dc11fa85.js.map",
+    "main.f7676933.js.map": "/project-rent-house/static/js/main.f7676933.js.map",
     "488.fda10bf4.chunk.js.map": "/project-rent-house/static/js/488.fda10bf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.dc11fa85.js"
+    "static/js/main.f7676933.js"
   ]
 }
